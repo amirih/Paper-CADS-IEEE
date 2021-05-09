@@ -1,0 +1,41 @@
+
+spliter
+Time: Fri Jul 28 03:40:13 +0430 2017
+icc
+-D _GNU_SOURCE -qopenmp -O3 -xHOST
+-no-vec
+CON30, 128x128, 492048
+CON31, 128x128, 331082
+CON50, 128x128, 723992
+CON51, 128x128, 554444
+CON70, 128x128, 1022160
+CON71, 128x128, 759542
+CON90, 128x128, 1231826
+CON91, 128x128, 1118276
+spliter
+Time: Fri Jul 28 03:41:16 +0430 2017
+gcc
+-D _GNU_SOURCE -O3 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+CON30, 128x128, 64951320
+CON31, 128x128, 54174390
+CON50, 128x128, 70222642
+CON51, 128x128, 64931430
+CON70, 128x128, 72573804
+CON71, 128x128, 58948788
+CON90, 128x128, 72545012
+CON91, 128x128, 59830656
+spliter
+Time: Fri Jul 28 03:42:20 +0430 2017
+clang
+-D _GNU_SOURCE -O3 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+CON30, 128x128, 130322
+CON31, 128x128, 130408
+CON50, 128x128, 361444
+CON51, 128x128, 302268
+CON70, 128x128, 626102
+CON71, 128x128, 647608
+CON90, 128x128, 958670
+CON91, 128x128, 796256
+************************************************************finsihed***************************************************************

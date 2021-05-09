@@ -1,0 +1,84 @@
+
+spliter
+Time: Sun Jul 23 06:40:34 +0430 2017
+icpc
+-D _GNU_SOURCE -O3 -xHOST
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 128x128, 69610
+opencv5, 128x128, 170924
+opencv7, 128x128, 310224
+opencv9, 128x128, 505668
+spliter
+Time: Sun Jul 23 06:40:53 +0430 2017
+g++
+-D _GNU_SOURCE -O3 -march=native
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 128x128, 69510
+opencv5, 128x128, 170894
+opencv7, 128x128, 310260
+opencv9, 128x128, 505326
+spliter
+Time: Sun Jul 23 06:41:12 +0430 2017
+clang++
+-D _GNU_SOURCE -O3 -march=native
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 128x128, 69492
+opencv5, 128x128, 170614
+opencv7, 128x128, 309920
+opencv9, 128x128, 505132
+spliter
+Time: Sun Jul 23 06:42:24 +0430 2017
+icpc
+-D _GNU_SOURCE -O3 -xHOST
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 512x512, 956866
+opencv5, 512x512, 2399706
+opencv7, 512x512, 4552448
+opencv9, 512x512, 7592752
+spliter
+Time: Sun Jul 23 06:42:42 +0430 2017
+g++
+-D _GNU_SOURCE -O3 -march=native
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 512x512, 957406
+opencv5, 512x512, 2402882
+opencv7, 512x512, 4553428
+opencv9, 512x512, 7597392
+spliter
+Time: Sun Jul 23 06:43:01 +0430 2017
+clang++
+-D _GNU_SOURCE -O3 -march=native
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 512x512, 957646
+opencv5, 512x512, 2404486
+opencv7, 512x512, 4555606
+opencv9, 512x512, 7592588
+spliter
+Time: Sun Jul 23 06:44:05 +0430 2017
+icpc
+-D _GNU_SOURCE -O3 -xHOST
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 1024x1024, 3700268
+opencv5, 1024x1024, 9415482
+opencv7, 1024x1024, 17995490
+opencv9, 1024x1024, 30089856
+spliter
+Time: Sun Jul 23 06:44:24 +0430 2017
+g++
+-D _GNU_SOURCE -O3 -march=native
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 1024x1024, 3685350
+opencv5, 1024x1024, 9405180
+opencv7, 1024x1024, 18032504
+opencv9, 1024x1024, 30265590
+spliter
+Time: Sun Jul 23 06:44:43 +0430 2017
+clang++
+-D _GNU_SOURCE -O3 -march=native
+-lopencv_core -lopencv_imgproc -lopencv_highgui
+opencv3, 1024x1024, 3700298
+opencv5, 1024x1024, 9410162
+opencv7, 1024x1024, 18021680
+opencv9, 1024x1024, 30183028
+opencv3, 128x128, 68464
+opencv3, 128x128, 68458
